@@ -86,6 +86,15 @@ module.exports._getDependencies = function(config) {
   try {
     dependencies = precinct.paperwork(config.filename, precinctOptions);
 
+    // HACK: for global alias config
+    dependencies = dependencies.map(dir => {
+        if(dir[0] === '@') {
+            var alia = dir.split('/')[0];
+            dir = dir.replace(alia, global.__alias[alia]);
+        }
+        return dir;
+    });
+
     debug('extracted ' + dependencies.length + ' dependencies: ', dependencies);
 
   } catch (e) {

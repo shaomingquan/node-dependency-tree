@@ -1,6 +1,6 @@
 {
-  "name": "dependency-tree",
-  "version": "5.9.0",
+  "name": "dependency-tree-alias-hack",
+  "version": "1.0.0",
   "description": "Get the dependency tree of a module",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mrjoelkemp/node-dependency-tree.git"
+    "url": "git@github.com:shaomingquan/node-dependency-tree.git"
   },
   "keywords": [
     "dependency",
@@ -30,9 +30,9 @@
   "author": "Joel Kemp <joel@mrjoelkemp.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrjoelkemp/node-dependency-tree/issues"
+    "url": "https://github.com/shaomingquan/node-dependency-tree/issues"
   },
-  "homepage": "https://github.com/mrjoelkemp/node-dependency-tree",
+  "homepage": "https://github.com/shaomingquan/node-dependency-tree",
   "dependencies": {
     "commander": "~2.6.0",
     "debug": "~2.2.0",
