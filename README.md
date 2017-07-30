@@ -17,4 +17,4 @@ now it can also resolve the deps well.
 
 ******
 
-because it is an ugly modify, so I fork the package. 侵删(delete if forbid).
+because it is an ugly modify, so I fork the package.
